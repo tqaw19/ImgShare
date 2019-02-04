@@ -5,7 +5,7 @@ const md5 = require('md5');
 
 const {Image, Comment} = require('../models');
 
-const ctrl = {};
+//const ctrl = {};
 
 ctrl.index = async(req, res) => {
     const viewModel = { image: {}, comments: {}};
